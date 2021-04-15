@@ -51,17 +51,10 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void setHurtToImageView() {
-//        try {
-//            Drawable drawable = ContextCompat.getDrawable(getApplicationContext(), imageRes);
-//        } catch (NullPointerException ignored) {
-//
-//        }
-////        int imageRes = R.drawable.ic_baseline_favorite_24;
-////
         imageView.setImageResource(R.drawable.ic_baseline_favorite_24);
 
     }
-
+//
     private void initViews() {
         textView = findViewById(R.id.textView);
         imageView = findViewById(R.id.imageView);
@@ -74,7 +67,7 @@ public class MainActivity extends AppCompatActivity {
         textView.setText(R.string.hello_Android);
     }
     private void changeTextColor() {
-        int colorRes = R.color.purple_500;
+        int colorRes = R.color.purple_200;
         int color  = ContextCompat.getColor(getApplicationContext(), colorRes);
         textView.setTextColor(color);
     }
