@@ -54,7 +54,7 @@ public class MainActivity extends AppCompatActivity {
         imageView.setImageResource(R.drawable.ic_baseline_favorite_24);
 
     }
-
+//
     private void initViews() {
         textView = findViewById(R.id.textView);
         imageView = findViewById(R.id.imageView);
